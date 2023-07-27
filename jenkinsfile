@@ -1,0 +1,15 @@
+pipeline {
+  agent any
+  stages {
+    stage('test1'){
+        steps {
+      echo "The script is on Github"
+        }
+    }
+    stage('test2'){
+        steps {
+      echo "Its working!!!"
+         }
+    }
+  }
+}
